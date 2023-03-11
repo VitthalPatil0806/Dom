@@ -1,0 +1,12 @@
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+#txt{
+    text-align: center;
+    margin-top: 200px;
+}
+#btn{
+    margin-left: 650px;
+    font-size: large;
+}

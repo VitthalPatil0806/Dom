@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calculator">
+    <table>
+        <tr>
+            <input type="text" id="result"  disabled/>
+        </tr>
+        <tr>
+            <td>
+               <input type="button" value="7" onclick="insert('7')" class="btn"/> 
+               <input type="button" value="8" onclick="insert('8')" class="btn"> 
+               <input type="button" value="9" onclick="insert('9')" class="btn"> 
+               <input type="button" value="/" onclick="insert('/')" class="btn">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="4" onclick="insert('4')" class="btn">
+                <input type="button" value="5" onclick="insert('5')" class="btn">
+                <input type="button" value="6" onclick="insert('6')" class="btn">
+                <input type="button" value="*" onclick="insert('*')" class="btn">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="1" onclick="insert('1')" class="btn">
+                <input type="button" value="2" onclick="insert('2')" class="btn">
+                <input type="button" value="3" onclick="insert('3')" class="btn">
+                <input type="button" value="-" onclick="insert('-')" class="btn">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <input type="button" value="0" onclick="insert('0')" class="btn">
+            <input type="button" value="00" onclick="insert('00')" class="btn">
+            <input type="button" value="." onclick="insert('.')" class="btn">
+            <input type="button" value="+" onclick="insert('+')" class="btn">
+            </td\>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="AC" class="btn" onclick="clean()">
+                <input type="button" value="C" class="btn" onclick="back()">
+                <input type="button" value="=" class="btn" onclick="equal()">
+            </td>
+        </tr>
+
+    </table>
+    </div>
+</body>
+</html>
+
+
+
+

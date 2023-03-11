@@ -1,0 +1,13 @@
+.calculator{
+    margin-left: 500px;
+    margin-right: 700px;
+    margin-top: 250px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background: #17cc87;
+    border-radius: none;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+#one{
+    margin-left: 550px;
+}
+#addTodo{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+input{
+    border-radius: 6px;
+}
+.btn{
+    margin-left: 600px;
+    margin-top: 20px;
+    color: #5ac6c6;
+    background-color: #e3ebeb;
+    border-radius: 6px;
+}
+body{
+    background-color: #8ef3b8;
+}
